@@ -17,7 +17,7 @@ const Dashboard = () => {
        </div>
     </div> */}
 
-       <section name="Home" className="max-w-screen-2xl h-screen  container mx-auto p-4 md:px-20 mt-0 text-white   bg-home">
+       <section name="Home" className="max-w-screen-2xl min-h-[720px] container mx-auto p-4 md:px-20 mt-0 text-white   bg-home">
         <div className="sm:px-13 px-6 absolute inset-0 top-[100px] sm:top-[150px] max-w-7xl mx-auto flex
         flex-row items-start gap-5">
 
