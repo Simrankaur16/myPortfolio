@@ -13,7 +13,7 @@ const About = () => {
         return(
          <Tilt className='sm:w-[250px] w-[140px]   flex flex-col'>
             <div className='w-full green-pink-gradient   p-[1px] rounded-[20px]  '>
-             <div className='bg-[#05181c]  rounded-[20px] py-4 px-12 h-[230px]  sm:h-[280px] flex justify-evenly items-center flex-col'>
+             <div className='bg-[#05181c]  rounded-[20px] py-4 px-12 h-[200px]  sm:h-[280px] flex justify-evenly items-center flex-col'>
                 <img src={icon} alt={title} className='w-16 h-16 object-contain' />
                 <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
               </div>
@@ -29,14 +29,14 @@ const About = () => {
     <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider sm:px-7'>Introduction</p>
     <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-10'>Overview.</h2>
 
-    <div className='mt-4 sm:px-16  text-[17px] max-w-3xl '>
+    <div className='mt-4 sm:px-16  text-[14px] max-w-3xl '>
     I'm a skilled software developer with experience in Typescript and Javascript, and expertise in framworks
      like React, Angular and Node.js. I'm a quick learner and collaborate closely 
      with clients to create efficent, scalable and use friendly solutions to solve real-world problems. Let's work 
      Together to bring your ideas to life!
      
     </div>
-    <div className='sm:mt-20 mt-10 sm:px-20 flex flex-wrap gap-7'>
+    <div className='sm:mt-20 mt-5 sm:px-20 flex flex-wrap gap-7'>
         {
             services.map((service ,index)=>(
                 <ServiceCard key={service.title} index={index} {...service}/>
