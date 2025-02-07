@@ -18,18 +18,18 @@ const Dashboard = () => {
     </div> */}
 
        <section name="Home" className="max-w-screen-2xl h-screen  container mx-auto p-4 md:px-20 mt-0 text-white   bg-home">
-        <div className="sm:px-13 px-6 absolute inset-0 top-[140px] max-w-7xl mx-auto flex
+        <div className="sm:px-13 px-6 absolute inset-0 top-[100px] sm:top-[150px] max-w-7xl mx-auto flex
         flex-row items-start gap-5">
 
           <div className='flex flex-col justify-center
-           items-center mt-10 sm:mt-20'>
+           items-center mt-7 sm:mt-20'>
             <div className='w-5 h-5 rounded-full bg-[#84e1e0]'/>
             <div className='w-1 sm:h-80 h-55 green-gradient'/>
             
           </div>
           <div className='flex flex-col md:flex-row'>
-            <div className='sm:mt-20 mt-10'>
-              <h1 className='font-black lg:text-[70px] sm:text-[60px] xs:text-[70px] text-[40px] lg:leading-[98px] mt-2'>
+            <div className='sm:mt-20 mt-7'>
+              <h1 className='font-black lg:text-[70px] sm:text-[60px]   text-[34px] lg:leading-[98px] mt-2'>
                 Hello, I'm Simran 
                 
               </h1>
@@ -49,7 +49,7 @@ const Dashboard = () => {
               
             </div>
 
-            <div className='md:w-1/2 mt-10 h-90  '>
+            <div className='md:w-1/2 mt-10 h-90   '>
              <img src={banner} className='md:w-500px md:h-400px' alt='banner'/>
             </div>
           </div>

@@ -29,7 +29,7 @@ const About = () => {
     <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider sm:px-7'>Introduction</p>
     <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-10'>Overview.</h2>
 
-    <div className='mt-4 sm:px-16  text-[14px] max-w-3xl '>
+    <div className='mt-4 sm:px-16 sm:text-[18px]   text-[14px] max-w-3xl '>
     I'm a skilled software developer with experience in Typescript and Javascript, and expertise in framworks
      like React, Angular and Node.js. I'm a quick learner and collaborate closely 
      with clients to create efficent, scalable and use friendly solutions to solve real-world problems. Let's work 
