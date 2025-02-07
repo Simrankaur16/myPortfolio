@@ -11,9 +11,9 @@ const About = () => {
     const ServiceCard = ({index, title, icon}) => {
 
         return(
-         <Tilt className='sm:w-[250px] w-[176px]  flex flex-col'>
+         <Tilt className='sm:w-[250px] w-[140px]   flex flex-col'>
             <div className='w-full green-pink-gradient   p-[1px] rounded-[20px]  '>
-             <div className='bg-[#05181c]  rounded-[20px] py-4 px-12 min-h-[210px]  h-[280px] flex justify-evenly items-center flex-col'>
+             <div className='bg-[#05181c]  rounded-[20px] py-4 px-12 h-[230px]  sm:h-[280px] flex justify-evenly items-center flex-col'>
                 <img src={icon} alt={title} className='w-16 h-16 object-contain' />
                 <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
               </div>
@@ -22,6 +22,7 @@ const About = () => {
         )
 
     }
+    
   return (
     <>
     <div name="About" className="bg-black text-white bg-home max-w-screen-2xl h-screen container mx-auto sm:p-12 p-4 md:px-10 mt-0  ">
@@ -29,8 +30,11 @@ const About = () => {
     <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-10'>Overview.</h2>
 
     <div className='mt-4 sm:px-16  text-[17px] max-w-3xl '>
-     Followings projects showcase my skills and experience through real world exmaple of my work
-     . Each porject is breifly described with links to code respositories
+    I'm a skilled software developer with experience in Typescript and Javascript, and expertise in framworks
+     like React, Angular and Node.js. I'm a quick learner and collaborate closely 
+     with clients to create efficent, scalable and use friendly solutions to solve real-world problems. Let's work 
+     Together to bring your ideas to life!
+     
     </div>
     <div className='sm:mt-20 mt-10 sm:px-20 flex flex-wrap gap-7'>
         {
