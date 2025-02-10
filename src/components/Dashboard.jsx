@@ -23,7 +23,7 @@ const Dashboard = () => {
 
           <div className='flex flex-col justify-center
            items-center mt-7 sm:mt-20'>
-            <div className='w-5 h-5 rounded-full bg-[#961ca3]'/>
+            <div className='w-5 h-5 rounded-full bg-[#741951]'/>
             <div className='w-1 sm:h-80 h-68 green-gradient'/>
             
           </div>
