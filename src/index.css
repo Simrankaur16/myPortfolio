@@ -11,8 +11,9 @@
   background: #400951; /* fallback for old browsers */
   background: linear-gradient(
     to right,
-    #460960,
-    #110224
+    #110224 ,
+    #460960
+       
   );
 
 }

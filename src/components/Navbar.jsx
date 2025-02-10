@@ -103,7 +103,7 @@ const Navbar = () => {
              <ul className='text-ba'>
               {
                 navItems.map(({id,text})=>(
-                  <li className='hover:scale-105 duration-200 cursor-pointer text-lg' key={id}>
+                  <li className='hover:scale-105 duration-200 cursor-pointer text-base' key={id}>
                     
                     <Link to={text}
                    smooth={true}
