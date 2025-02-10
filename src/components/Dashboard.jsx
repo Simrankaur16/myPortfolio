@@ -13,10 +13,10 @@ const Dashboard = () => {
     <>
     
 
-       <section name="Home" className="max-w-screen-2xl min-h-screen container mx-auto p-4 md:px-20 mt-0 text-white bg-home 
+       <section name="Home" className=" max-w-screen-2xl sm:pb-0  pb-10  min-h-auto md:h-screen container p-4 md:px-20 mt-0 text-white bg-home 
          ">
       
-        <div className="sm:px-13 px-6 absolute inset-0 top-[100px] sm:top-[150px] max-w-7xl mx-auto flex z-0
+        <div className="sm:px-13 px-6 relative inset-0 top-[100px] sm:top-[150px] max-w-7xl mx-auto flex z-0
 
         flex-row items-start gap-5 ">
          
@@ -30,7 +30,7 @@ const Dashboard = () => {
           <div className='flex flex-col md:flex-row'>
             
             <div className='sm:mt-20 mt-7'>
-              <span className='tagline'>Welcomej to my Portfolio</span>
+              <span className='tagline'>Welcome to my Portfolio</span>
               <h1 className='font-black lg:text-[70px] sm:text-[60px]   text-[34px] lg:leading-[98px] mt-2'>
                 Hello, I'm Simran 
                 
