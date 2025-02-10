@@ -25,7 +25,7 @@ const services = [
     },
     {
       title: "Angular Developer",
-      icon: backend,
+      icon: web,
     },
     
   ];
