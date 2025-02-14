@@ -6,7 +6,6 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Project from './components/Project'
 import Contact from './components/Contact'
-import StarCanvas from './components/Star'
 
 
 
@@ -19,9 +18,8 @@ function App() {
       <Dashboard/>
       <About/>
       <Project/>
-      
-        <Contact  />
-        {/* <StarCanvas/> */}
+      <Contact/>
+       
 
      
 

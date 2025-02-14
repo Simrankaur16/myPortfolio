@@ -23,14 +23,14 @@
     background: linear-gradient(-90deg, #cb4dee 0%, rgba(60, 51, 80, 0) 100%);
     background: -webkit-linear-gradient(
       -90deg,
-      #741951 0%,
+      #512f89 0%,
       rgba(60, 51, 80, 0) 100%
     );
   }
 
 .bg-home{
-    background: rgb(59, 29, 84);
-background: radial-gradient(circle, rgb(49, 16, 67) 0%, rgb(2, 3, 3) 100%);
+    background: #120425 ;
+background: radial-gradient(circle, #240b47 0%, rgb(2, 3, 3) 100%);
 }
 
 
@@ -97,7 +97,7 @@ background: radial-gradient(circle, rgb(49, 16, 67) 0%, rgb(2, 3, 3) 100%);
 
 
  .tagline {
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, .5) -5.91%, rgba(74, 47, 189, .5) 111.58%);
+    background: linear-gradient(90.21deg, rgba(97, 54, 170, 0.5) -5.91%, rgba(144, 47, 189, 0.5) 111.58%);
     border: 1px solid hsla(0, 0%, 100%, .5);
     display: inline-block;
     font-size: 20px;

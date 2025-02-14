@@ -5,6 +5,7 @@ import react from "./react.svg"
 import book from "./book.png";
 import uber from "./uber.png"
 import github from "./github.png"
+import port from './port.png'
 
 export {
     backend,
@@ -13,5 +14,6 @@ export {
     react,
     uber,
     book,
-    github
+    github,
+    port
 }

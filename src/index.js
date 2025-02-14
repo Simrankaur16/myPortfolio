@@ -1,10 +1,12 @@
+import { GiPortal } from 'react-icons/gi';
 import {
     backend,
     mobile,
     web,
     react,
     book,
-    uber
+    uber,
+    port
 } from './assets/index'
 
 
@@ -72,6 +74,27 @@ const services = [
       ],
       image: uber,
       source_code_link: "https://github.com/Simrankaur16/UberClone",
+    },
+    {
+      name: "My Portfolio",
+      description:
+        "I developed a  portfolio website using React.js and Tailwind CSS to showcase my projects and skills. The website features a clean and modern UI with a responsive design.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: port,
+      source_code_link: "https://github.com/Simrankaur16/myPortfolio",
     },
     
   ];

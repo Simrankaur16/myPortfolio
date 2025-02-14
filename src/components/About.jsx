@@ -13,9 +13,9 @@ const About = () => {
 
         return(
          <Tilt  options={{max:45, scale:1, speed: 450}}
-          className='sm:w-[250px] w-[140px]   flex flex-col'>
+          className='md:w-[250px] w-[140px]   flex flex-col'>
             <div className='w-full green-pink-gradient   p-[1px] rounded-[20px]  '>
-             <div className='bg-[#1f0732]  rounded-[20px] py-4 px-12 h-[200px]  sm:h-[280px] flex justify-evenly items-center flex-col'>
+             <div className='bg-[#150730]  rounded-[20px] py-4 px-12 h-[200px]  md:h-[280px] flex justify-evenly items-center flex-col'>
                 <img src={icon} alt={title} className='w-16 h-16 object-cover' />
                 <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
               </div>
@@ -27,7 +27,7 @@ const About = () => {
     
   return (
     <>
-    <div name="About" className="bg-[#13061f]  text-white  max-w-screen-2xl min-h-auto  container mx-auto sm:p-12 p-4 md:px-10 mt-0  ">
+    <div name="About" className="bg-[#120425]  text-white  max-w-screen-2xl min-h-auto  container mx-auto sm:p-12 p-4 md:px-10 mt-0  ">
     <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider sm:px-7'>Introduction</p>
     <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-10'>Overview.</h2>
 

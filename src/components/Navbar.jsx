@@ -57,7 +57,7 @@ const Navbar = () => {
 
   return (
     <div className= {`max-w-screen-2xl items-center container mx-auto px-4 pd:px-20 py-3   text-white fixed top-0 left-0 right-0 z-10
-      transition-all duration-300 ${scrolled ? 'bg-[#160724]' : 'bg-[#e7e7e700]'}`}>
+      transition-all duration-300 ${scrolled ? 'bg-[#120425]' : 'bg-[#e7e7e700]'}`}>
         <div className='flex sm:justify-around justify-between'>
             <div className='flex  space-x-2 '> 
                 <img className='h-10 w-10 rounded-full ' src={logo} alt='log'/>
