@@ -62,7 +62,7 @@ const Contact = () => {
     <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-10'>Contact.</h2>
 
     <div className='flex md:flex-row  flex-col relative '>
-      <div className=' md:w-1/2 green-pink-gradient m-3 md:m-8 rounded-2xl'>
+      <div className=' md:w-1/2 relative green-pink-gradient m-3 md:m-10 rounded-2xl'>
     <div className= 'bg-[#150634]    m-[1px] rounded-2xl p-3 '>
     <form  onSubmit={handleSubmit} className='sm:mt-12 mt-5 flex flex-col gap-3 md:gap-7'>
 
