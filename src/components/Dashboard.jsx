@@ -38,7 +38,7 @@ const Dashboard = () => {
               <span className='text-4xl text-[#e5aaf7]'> 
                 < ReactTyped
                    
-                   strings={["Developer", "Programmer", "Coder"]}
+                   strings={["Developer","Graphic Designer", "Programmer", "UI/UX Designer"]}
                    typeSpeed={80}
                    backSpeed={70}
                    loop={true}

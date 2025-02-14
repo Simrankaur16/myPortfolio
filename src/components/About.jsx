@@ -6,6 +6,7 @@ import mobile from '../assets/mobile.png';
 import react from '../assets/react.svg'
 
 
+
 const About = () => {
 
     const ServiceCard = ({index, title, icon}) => {
