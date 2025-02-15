@@ -56,7 +56,7 @@ const Project = () => {
      . Each porject is breifly described with links to code respositories
     </div>
 
-    <div className='mt-8 items-center justify-center sm:items-start sm:justify-normal  md:ml-7 md:px-20 flex flex-wrap gap-7'>
+    <div className='mt-8 items-center justify-center sm:items-start sm:justify-normal  md:ml-7 md:px-15 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

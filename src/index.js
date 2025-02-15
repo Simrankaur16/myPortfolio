@@ -6,7 +6,8 @@ import {
     react,
     book,
     uber,
-    port
+    port,
+    graphic
 } from './assets/index'
 
 
@@ -34,6 +35,28 @@ const services = [
 
   const projects = [
     {
+      name: "Graphic Desgin",
+      description:
+        "Designed professional business flyers and cards using Adobe Illustrator, focusing on clean layouts, modern typography, and visually appealing graphics.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: graphic,
+      source_code_link: "https://drive.google.com/file/d/1HiCd5SEg_L-ZjX-RNwB_Gnbblm8OVexx/view?usp=sharing",
+    },
+    
+    {
       name: "Book Heaven",
       description:
         "BookHeaven is a full-stack online bookstore built using the MEAN stack. It allows users to browse, search, and manage books seamlessly with a modern and responsive UI.",
@@ -57,7 +80,7 @@ const services = [
     {
       name: "Uber Clone",
       description:
-        "Your MERN Stack Uber Clone is a ride-hailing application built using MERN stack. It enables users to book rides, track drivers in real time, and manage ride history efficiently",
+        "The MERN Stack Uber Clone is a feature-rich transportation booking application. It enables users to book trips, track drivers in real-time, and manage their trip history with ease",
       tags: [
         {
           name: "react",

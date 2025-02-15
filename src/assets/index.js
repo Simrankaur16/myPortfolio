@@ -3,9 +3,10 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import react from "./react.svg"
 import book from "./book.png";
-import uber from "./uber.png"
-import github from "./github.png"
-import port from './port.png'
+import uber from "./uber.png";
+import github from "./github.png";
+import port from './port.png';
+import graphic from './graphic.jpg'
 
 export {
     backend,
@@ -15,5 +16,7 @@ export {
     uber,
     book,
     github,
-    port
+    port,
+    graphic
+
 }
