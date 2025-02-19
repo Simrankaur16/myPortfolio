@@ -34,27 +34,7 @@ const services = [
   ];
 
   const projects = [
-    {
-      name: "Graphic Desgin",
-      description:
-        "Designed professional business flyers and cards using Adobe Illustrator, focusing on clean layouts, modern typography, and visually appealing graphics.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: graphic,
-      source_code_link: "https://drive.google.com/file/d/1HiCd5SEg_L-ZjX-RNwB_Gnbblm8OVexx/view?usp=sharing",
-    },
+   
     
     {
       name: "Book Heaven",
